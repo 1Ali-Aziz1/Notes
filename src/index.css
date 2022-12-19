@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav{
+  background: white;
+  border: 2px solid #d9d1d1;
+}
+nav ul{
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li{
+  display: inline;
+  margin: 5px;
+}
+a{
+  cursor: pointer;
+}
+.profileImg{
+  height: 12px;
+  width: 12px;
+}
+.login {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+.login__textBox {
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.login__btn {
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  background-color: #3897d3;
+}
+.hov:hover{
+  background: #3288bd;
+}
+.login__google {
+  background-color: #3897d3;
+}
+.login div {
+  margin-top: 7px;
+}
+.bltxt{
+  color:aqua;
+}
+.bltxt:hover{
+  cursor: pointer;
+  color: white;
+}
+focusLess:focus {
+  outline:none;
+}
